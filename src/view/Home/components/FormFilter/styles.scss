@@ -1,0 +1,10 @@
+.form-filter {
+  & button {
+    border: 1px solid var(--mistyGray-color);
+    color: var(--mistyGray-color);
+  }
+  & .btn.active {
+    background-color: var(--mediumPurple-color);
+    font-weight: 600;
+  }
+}

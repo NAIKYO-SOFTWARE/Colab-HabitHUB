@@ -1,0 +1,9 @@
+.active {
+  &__wrapper--title {
+    border-radius: 15px;
+  }
+  &-btn {
+    border-radius: 999px;
+    background-color: var(--mistyGray-color);
+  }
+}

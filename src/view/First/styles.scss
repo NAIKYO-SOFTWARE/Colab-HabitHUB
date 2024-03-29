@@ -1,0 +1,32 @@
+.firstpage {
+  overflow: hidden;
+  & .ellipse1195 {
+    top: 0;
+    left: 10%;
+    transform: rotateY(20deg);
+    z-index: 10;
+  }
+  & .ellipse1196 {
+    top: -23%;
+    right: 0;
+    z-index: 20;
+  }
+  & .ellipse1198 {
+    top: -4%;
+    right: -26%;
+    z-index: 15;
+  }
+  &__wrapper-content {
+    z-index: 30;
+    & .title {
+      margin-top: 30px;
+      font-size: 45px;
+      max-width: 200px;
+      line-height: 1.5;
+    }
+    & .desc {
+      font-weight: 300;
+      font-size: 20px;
+    }
+  }
+}
